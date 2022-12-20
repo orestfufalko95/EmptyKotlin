@@ -16,7 +16,7 @@ buildscript {
 
 plugins {
     kotlin("jvm") version "1.6.21"
-    application
+//    application
 }
 
 group = "org.example"
@@ -38,9 +38,9 @@ tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-application {
-    mainClass.set("MainKt")
-}
+//application {
+//    mainClass.set("MainKt")
+//}
 
 tasks {
 
