@@ -1,3 +1,5 @@
+import org.example.Orest
+
 fun main(args: Array<String>) {
     println("Hello World! asdfasdfsadf")
 

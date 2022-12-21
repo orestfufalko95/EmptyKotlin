@@ -28,6 +28,7 @@ repositories {
 
 dependencies {
     implementation("com.google.code.gson:gson:2.8.6")
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
     testImplementation(kotlin("test"))
 }
 
